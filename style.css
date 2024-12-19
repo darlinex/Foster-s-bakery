@@ -1,0 +1,210 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ol{
+    list-style: none;
+    
+   
+}
+
+li> a{
+    text-decoration: none;
+    color: #D84F24;
+}
+
+/* .logo{
+    float: left;
+   
+} */
+/* 
+.login{
+    float: right;
+}
+
+.signup{
+    float: inline-end;
+} */
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.nav-kids{
+    margin: 40px;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+nav{
+    unicode-bidi: isolate;
+}
+
+.nav-body{
+    display: flex;
+}
+
+ul {
+    /* display: block; */
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+a:-webkit-any-link{
+    cursor: pointer;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+.homediv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homediv h1{
+    font-size: 55px;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.homediv p{
+    margin-top: 50px;
+    font-size: 25px;
+  
+ 
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    line-height: 35px;
+    font-weight: 400;
+    size: 25px;
+    
+}
+
+.btn {
+    margin-top: 80px;
+    padding: 18px 36px;
+    border-radius: 8px;
+    background-color: #D84F24;
+    color: #fff;
+    border: none;
+    gap: 12px;
+}
+
+button{
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+
+}
+
+.insider{
+    /* width: 603px;
+    height: 349px;
+    top */
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.h2{
+    margin-top: 30px;
+    text-align: center;
+}
+.h2{
+    padding: 45px;
+}
+
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.cardcontain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foodcard{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.footer{
+    background-color: #d84f24;
+    padding: 80px;
+    margin-top: 80px;
+
+}
+
+footer{
+   
+    color: white;
+}
+
+.foot{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
